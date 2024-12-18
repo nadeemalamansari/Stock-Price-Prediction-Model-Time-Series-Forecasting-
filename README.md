@@ -40,7 +40,7 @@ pip install pmdarima statsmodels prophet pandas-profiling seaborn numpy matplotl
 1. **Import Dataset**
 
    ```python
-   data = pd.read_csv(r'C:\Users\admin\Downloads\NSE-TATAGLOBAL.csv')
+   data = pd.read_csv('https://raw.githubusercontent.com/nadeemalamansari/Stock-Price-Prediction-Model-Time-Series-Forecasting-/main/NSE-TATAGLOBAL.csv')
    ```
 
 2. **Convert Date Column and Reverse Data**
